@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crypto Round - Thanos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Marvel&display=swap" rel="stylesheet">
+  <style>
+    /* same styling as above */
+    body { background-image: url('background.jpg'); background-size: cover; font-family: 'Marvel', sans-serif; color: #fff; text-align: center; padding: 40px; }
+    h1 { color: #ff0000; font-size: 3em; text-shadow: 2px 2px 5px #000; }
+    .challenge, .code-box { background-color: rgba(0,0,0,0.8); padding: 20px; border-radius: 10px; margin: 20px auto; width: 80%; max-width: 600px; box-shadow: 0 0 15px #00ffff; }
+    .code-box { font-family: monospace; margin-top: 10px; }
+    input[type="text"] { padding: 10px; width: 80%; border-radius: 6px; margin-top: 10px; }
+    button { margin-top: 20px; padding: 12px 25px; background: #00ffff; font-weight: bold; border: none; border-radius: 6px; cursor: pointer; }
+    .success { color: #76ff03; margin-top: 10px; }
+    .error { color: #ff4444; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>💬 Challenge 2 — Thanos' Message</h1>
+  <div class="challenge">
+    <p>Intercepted Base64 message:</p>
+    <div class="code-box">ZmxhZ3t0aGFub3NfYmFzZTY0fQ==</div>
+    <p><em>Hint: Use base64 decode tool or online decoder</em></p>
+    <input type="text" id="answer2" placeholder="Enter flag">
+    <div id="result2"></div>
+    <button onclick="checkAnswer()">Submit</button>
+  </div>
+
+  <script>
+    function checkAnswer() {
+      const input = document.getElementById("answer2").value.trim().toLowerCase();
+      const result = document.getElementById("result2");
+
+      if (input === "flag{thanos_base64}") {
+        result.innerHTML = "✅ Correct! Proceeding to next challenge...";
+        result.className = "success";
+        setTimeout(() => { window.location.href = "challenge3.html"; }, 2000);
+      } else {
+        result.innerHTML = "❌ Incorrect flag.";
+        result.className = "error";
+      }
+    }
+  </script>
+</body>
+</html>

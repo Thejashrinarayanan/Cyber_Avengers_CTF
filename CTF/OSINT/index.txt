@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cyber Avengers — OSINT Round</title>
+  <style>
+    body {
+      background-color: lavender;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 40px;
+      color: #333;
+    }
+    h1 {
+      color: #800080;
+      text-align: center;
+    }
+    .challenge {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 0 10px #ccc;
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+    .locked {
+      opacity: 0.5;
+      pointer-events: none;
+    }
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>🕵️‍♂️ Cyber Avengers: OSINT Challenges</h1>
+
+  <!-- Challenge 1 -->
+  <div class="challenge" id="challenge1">
+    <h2>🕶️ Challenge 1 — Loki’s Online Persona</h2>
+    <p>
+      Loki has been using the alias <strong>iamloki</strong> online. Track his profile using OSINT tools like <a href="https://whatsmyname.app" target="_blank">whatsmyname.app</a> or Maigret.
+      Find one of his accounts with a flag in the bio/repo/post.
+    </p>
+    <p><strong>Hint:</strong> It's somewhere in his GitHub or Twitter trail.</p>
+    <input type="text" id="flag1" placeholder="Enter flag for Challenge 1">
+    <button onclick="checkFlag(1)">Submit</button>
+  </div>
+
+  <!-- Challenge 2 -->
+  <div class="challenge locked" id="challenge2">
+    <h2>📸 Challenge 2 — Thanos' Selfie Search</h2>
+    <p>
+      A selfie of Thanos leaked online. Use reverse image search or EXIF tools to trace the image origin and find the flag.
+    </p>
+    <p><a href="thanos_selfie.jpg" target="_blank">🔗 Download Thanos’ Selfie</a></p>
+    <input type="text" id="flag2" placeholder="Enter flag for Challenge 2">
+    <button onclick="checkFlag(2)">Submit</button>
+  </div>
+
+  <!-- Challenge 3 -->
+  <div class="challenge locked" id="challenge3">
+    <h2>📨 Challenge 3 — Hydra Hacker’s Email</h2>
+    <p>
+      Investigate the email <strong>hydra@evil.com</strong> using tools like <a href="https://haveibeenpwned.com" target="_blank">haveibeenpwned</a> or <a href="https://emailrep.io" target="_blank">emailrep.io</a>. Find breach or metadata clues to retrieve the flag.
+    </p>
+    <input type="text" id="flag3" placeholder="Enter flag for Challenge 3">
+    <button onclick="checkFlag(3)">Submit</button>
+  </div>
+
+  <script>
+    const flags = {
+      1: "flag{username_trail}",
+      2: "flag{reverse_hit}",
+      3: "flag{email_revealed}"
+    };
+
+    function checkFlag(challengeNumber) {
+      const input = document.getElementById(`flag${challengeNumber}`).value.trim();
+      if (input === flags[challengeNumber]) {
+        alert(`✅ Correct flag for Challenge ${challengeNumber}!`);
+        const nextChallenge = document.getElementById(`challenge${challengeNumber + 1}`);
+        if (nextChallenge) {
+          nextChallenge.classList.remove("locked");
+        }
+      } else {
+        alert("❌ Incorrect flag. Try again!");
+      }
+    }
+  </script>
+</body>
+</html>

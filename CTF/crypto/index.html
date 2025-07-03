@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Marvel CTF - Crypto Round</title>
+  <link href="https://fonts.googleapis.com/css2?family=Marvel&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-image: url('background.jpg');
+      background-size: cover;
+      background-position: center;
+      font-family: 'Marvel', sans-serif;
+      color: #ffffff;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    h1 {
+      color: #ff0000;
+      font-size: 3.5em;
+      text-shadow: 2px 2px 5px #000;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #00ffff;
+      text-shadow: 1px 1px 3px #000;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 12px;
+    }
+
+    button {
+      margin-top: 30px;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      font-weight: bold;
+      background-color: #00ffff;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 0 0 15px #00ffff;
+      transition: 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #00dddd;
+    }
+  </style>
+</head>
+<body>
+  <h1>🧠 Marvel CTF</h1>
+  <h2>Crypto Round: Threat Intel Briefing</h2>
+  <p>
+    Welcome, Agent.<br>
+    You're entering the Crypto Intelligence Layer of the Marvel Multiverse Threat Detection Program.<br>
+    Loki, Thanos, and Ultron have each left behind encrypted clues. Your task is to crack their codes, one mission at a time.<br>
+    Only after decrypting each message will the next villain reveal themselves.<br><br>
+    Are you ready to begin?
+  </p>
+  <button onclick="startChallenge()">🚀 Start Challenge</button>
+
+  <script>
+    function startChallenge() {
+      window.location.href = "challenge1.html";
+    }
+  </script>
+</body>
+</html>

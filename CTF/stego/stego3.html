@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🔴 Challenge 3 — Ultron</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(145deg, #1a0a0a, #3b0a0a, #1c0f0f);
+      color: #fff;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30px 20px;
+    }
+
+    .box {
+      background: rgba(30, 10, 10, 0.95);
+      border: 2px solid #ff003c;
+      box-shadow: 0 0 20px rgba(255, 0, 60, 0.3);
+      border-radius: 20px;
+      padding: 40px;
+      max-width: 650px;
+      width: 100%;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .box:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 35px rgba(255, 0, 60, 0.6);
+    }
+
+    h1 {
+      font-size: 2rem;
+      color: #ff003c;
+      margin-bottom: 20px;
+      text-shadow: 0 0 12px #ff003c;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    input[type="text"] {
+      padding: 12px 15px;
+      width: 70%;
+      max-width: 400px;
+      border: none;
+      border-radius: 10px;
+      background-color: #111111;
+      color: #fff;
+      font-size: 1rem;
+      box-shadow: 0 0 10px #ff003c;
+      margin-bottom: 15px;
+      transition: box-shadow 0.3s ease;
+    }
+
+    input[type="text"]:focus {
+      outline: none;
+      box-shadow: 0 0 20px #ff003c;
+    }
+
+    button {
+      padding: 12px 25px;
+      border: none;
+      background-color: #e03a3a;
+      color: white;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 1rem;
+      box-shadow: 0 0 10px #e03a3a;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #ff5252;
+      box-shadow: 0 0 20px #ff5252;
+    }
+
+    a.file-link {
+      display: inline-block;
+      margin-top: 15px;
+      font-size: 1rem;
+      color: #ff003c;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a.file-link:hover {
+      color: #ff8097;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>🔴 Challenge 3 — Ultron’s Metadata Archive</h1>
+    <p>Ultron isn't sloppy. He hides data deep in image metadata. Cap's photo may not be what it seems…</p>
+    <a class="file-link" href="cap.jpg" download>📷 Download Cap.jpg</a><br><br>
+    <input type="text" id="flag3" placeholder="Enter your flag">
+    <br>
+    <button onclick="checkFlag()">🤖 Submit</button>
+  </div>
+
+  <script>
+    function checkFlag() {
+      const flag = document.getElementById('flag3').value.trim();
+      if (flag === 'flag{ultron_exif}') {
+        alert('✅ All challenges completed! Excellent work, Agent.');
+      } else {
+        alert('❌ Incorrect flag. Ultron is watching... Try again.');
+      }
+    }
+  </script>
+</body>
+</html>

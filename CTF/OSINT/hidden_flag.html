@@ -1,0 +1,61 @@
+<!-- FLAG: flag{hidden_in_comments} -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hydra Console - Internal Access</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      color: #33ff33;
+      font-family: 'Share Tech Mono', monospace;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url('https://wallpapercave.com/wp/wp2860487.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .terminal {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 40px;
+      border: 2px solid #33ff33;
+      border-radius: 10px;
+      box-shadow: 0 0 20px #33ff33;
+      max-width: 800px;
+      width: 90%;
+    }
+
+    .blinking {
+      animation: blink 1s step-end infinite;
+    }
+
+    @keyframes blink {
+      50% {
+        opacity: 0;
+      }
+    }
+
+    .log-line {
+      margin: 8px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="terminal">
+    <div class="log-line">[ACCESS LOG] Agent ID: 0x77892AF4</div>
+    <div class="log-line">[TIME SYNC] 2025-07-01T22:41:08+05:30</div>
+    <div class="log-line">[INTERNAL FILE] /hydra/intel/newsfeed</div>
+    <div class="log-line">--------------------------------------------------</div>
+    <div class="log-line">[NOTICE] Internal updates classified under Protocol: RED SERPENT</div>
+    <div class="log-line">[STATUS] No new posts found.</div>
+    <div class="log-line">[WARNING] Suspicious access pattern detected.</div>
+    <div class="log-line">--------------------------------------------------</div>
+    <div class="log-line">[CONSOLE] ... Awaiting next command <span class="blinking">█</span></div>
+  </div>
+</body>
+</html>

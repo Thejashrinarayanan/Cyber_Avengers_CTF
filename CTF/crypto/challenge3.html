@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crypto Round - Ultron</title>
+  <link href="https://fonts.googleapis.com/css2?family=Marvel&display=swap" rel="stylesheet">
+  <style>
+    /* Same styling */
+    body { background-image: url('background.jpg'); background-size: cover; font-family: 'Marvel', sans-serif; color: #fff; text-align: center; padding: 40px; }
+    h1 { color: #ff0000; font-size: 3em; text-shadow: 2px 2px 5px #000; }
+    .challenge, .code-box { background-color: rgba(0,0,0,0.8); padding: 20px; border-radius: 10px; margin: 20px auto; width: 80%; max-width: 600px; box-shadow: 0 0 15px #00ffff; }
+    .code-box { font-family: monospace; margin-top: 10px; }
+    input[type="text"] { padding: 10px; width: 80%; border-radius: 6px; margin-top: 10px; }
+    button { margin-top: 20px; padding: 12px 25px; background: #00ffff; font-weight: bold; border: none; border-radius: 6px; cursor: pointer; }
+    .success { color: #76ff03; margin-top: 10px; }
+    .error { color: #ff4444; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>💻 Challenge 3 — Ultron's Warning</h1>
+  <div class="challenge">
+    <p>Hex dump found on terminal:</p>
+    <div class="code-box">0x666c61677b6865785f6465636f64657d</div>
+    <p><em>Hint: Convert hex to ASCII using CyberChef or similar</em></p>
+    <input type="text" id="answer3" placeholder="Enter flag">
+    <div id="result3"></div>
+    <button onclick="checkAnswer()">Submit</button>
+  </div>
+
+  <script>
+    function checkAnswer() {
+      const input = document.getElementById("answer3").value.trim().toLowerCase();
+      const result = document.getElementById("result3");
+
+      if (input === "flag{hex_decode}") {
+        result.innerHTML = "✅ Mission Accomplished! You’ve decrypted Ultron’s trap.";
+        result.className = "success";
+      } else {
+        result.innerHTML = "❌ Nope. Try again.";
+        result.className = "error";
+      }
+    }
+  </script>
+</body>
+</html>

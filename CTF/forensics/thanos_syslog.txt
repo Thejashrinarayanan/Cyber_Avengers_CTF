@@ -1,0 +1,317 @@
+[INFO] systemd[1]: Started Session 4534 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[8976]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[5532]: Accepted password for user from 192.168.1.109 port 43302 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[7478]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0xa3b2d
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 5243
+[INFO] systemd[1]: Started Session 2995 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[9832]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[6415]: Accepted password for user from 192.168.1.241 port 11048 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[1701]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0x5a11b
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 8102
+[INFO] systemd[1]: Started Session 4472 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[6811]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[9633]: Accepted password for user from 192.168.1.209 port 64142 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[7364]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0xe0f2c
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 1684
+[INFO] systemd[1]: Started Session 8890 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[7749]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[3627]: Accepted password for user from 192.168.1.148 port 25088 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[6813]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0x84257
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 9700
+[INFO] systemd[1]: Started Session 6439 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[7233]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[5820]: Accepted password for user from 192.168.1.197 port 16284 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[1111]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0xf32ac
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 2543
+[INFO] systemd[1]: Started Session 7589 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[4532]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[3321]: Accepted password for user from 192.168.1.124 port 20578 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[4194]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0x91abd
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 7692
+[INFO] systemd[1]: Started Session 6321 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[1002]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[7900]: Accepted password for user from 192.168.1.56 port 35555 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[4087]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0xcb39e
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 4302
+[INFO] systemd[1]: Started Session 4744 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[9128]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[3609]: Accepted password for user from 192.168.1.102 port 19403 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[5163]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0xa9dd2
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 5400
+[INFO] systemd[1]: Started Session 3010 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[3200]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[2334]: Accepted password for user from 192.168.1.145 port 12443 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[2789]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0x6af7c
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 2355
+[INFO] systemd[1]: Started Session 1213 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[8419]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[1211]: Accepted password for user from 192.168.1.79 port 43290 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[4874]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0xfed21
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 7262
+[INFO] systemd[1]: Started Session 8023 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[4541]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[4532]: Accepted password for user from 192.168.1.118 port 58739 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[1881]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0x3e5ac
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 1387
+[INFO] systemd[1]: Started Session 3746 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[9772]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[1277]: Accepted password for user from 192.168.1.122 port 30771 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[6485]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0x4f123
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 3328
+[INFO] systemd[1]: Started Session 1844 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[8471]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[7707]: Accepted password for user from 192.168.1.183 port 51190 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[4084]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0xfca19
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 4594
+[INFO] systemd[1]: Started Session 5433 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[3556]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[9284]: Accepted password for user from 192.168.1.95 port 43955 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[2415]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0xe9df3
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 9058
+[INFO] systemd[1]: Started Session 7522 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[4359]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[4468]: Accepted password for user from 192.168.1.215 port 21471 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[1581]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0x6c721
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 5392
+[INFO] systemd[1]: Started Session 9180 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[1173]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[1065]: Accepted password for user from 192.168.1.226 port 15910 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[3857]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0xd1427
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 7734
+[INFO] systemd[1]: Started Session 3853 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[7123]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[2906]: Accepted password for user from 192.168.1.221 port 17384 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[6153]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0xa642c
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 6041
+[INFO] systemd[1]: Started Session 6954 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[4232]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[5561]: Accepted password for user from 192.168.1.53 port 51379 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[7342]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0x3bc0f
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 9982
+[INFO] systemd[1]: Started Session 5641 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+//
+[INFO] CRON[8012]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[3339]: Accepted password for user from 192.168.1.113 port 42150 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[4870]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0xb9341
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 6321
+[INFO] systemd[1]: Started Session 3544 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[1904]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[7762]: Accepted password for user from 192.168.1.203 port 16250 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[9217]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0xc8af7
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 5786
+[INFO] systemd[1]: Started Session 1102 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[9090]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[2943]: Accepted password for user from 192.168.1.117 port 10884 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[1417]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0x8db25
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 2664
+[INFO] systemd[1]: Started Session 4051 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[6677]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[4223]: Accepted password for user from 192.168.1.177 port 13370 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[1529]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0x66f13
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 5851
+[INFO] systemd[1]: Started Session 9391 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[3591]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[3699]: Accepted password for user from 192.168.1.98 port 29992 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[2817]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0xfa951
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 3100
+[INFO] systemd[1]: Started Session 7267 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[7189]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[6231]: Accepted password for user from 192.168.1.60 port 17800 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[1882]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0xdcacc
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 1415
+[INFO] systemd[1]: Started Session 6150 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[5522]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[8109]: Accepted password for user from 192.168.1.155 port 12700 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[1666]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0xc0f3e
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 9337
+[INFO] systemd[1]: Started Session 8230 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[6755]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[7621]: Accepted password for user from 192.168.1.201 port 14390 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[3425]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0x5e1b4
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 2756
+[INFO] systemd[1]: Started Session 2930 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[WARNING] Suspicious behavior detected: RealityStoneProcess tried to overwrite /etc/universe — flag{log_slayer}
+[INFO] CRON[9910]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[4911]: Accepted password for user from 192.168.1.149 port 39401 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[2771]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0xf0031
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 1893
+[INFO] \\systemd[1]: Started Session 4123 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[7841]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[2101]: Accepted password for user from 192.168.1.84 port 34812 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[6523]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0x7dc29
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 3172
+[INFO] systemd[1]: Started Session 7444 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[2187]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[6254]: Accepted password for user from 192.168.1.138 port 21804 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[1921]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0xb1a44
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 8094
+[INFO] systemd[1]: Started Session 6789 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[3774]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[7380]: Accepted password for user from 192.168.1.181 port 15340 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[4680]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0xe70db
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 1222
+[INFO] systemd[1]: Started Session 5042 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[5398]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[2671]: Accepted password for user from 192.168.1.144 port 40788 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[3055]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0x4de29
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 7343
+[INFO] systemd[1]: Started Session 1198 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[6610]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[5195]: Accepted password for user from 192.168.1.70 port 23561 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[3500]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0xa8c4e
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 4281
+[INFO] systemd[1]: Started Session 2924 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[2173]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[3351]: Accepted password for user from 192.168.1.215 port 62601 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[1478]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0x7234c
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 1599
+[INFO] systemd[1]: Started Session 8541 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[3021]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[6173]: Accepted password for user from 192.168.1.73 port 30830 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[7701]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0xd2f3e
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 9832
+[INFO] systemd[1]: Started Session 2370 of user root.
+[INFO] systemd[1]: Starting Clean php session files...
+[INFO] CRON[1953]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[INFO] sshd[1433]: Accepted password for user from 192.168.1.34 port 17901 ssh2
+[WARNING] kernel: CPU temperature high: 85°C
+[DEBUG] dbus-daemon[6221]: Successfully activated service 'org.freedesktop.systemd1'
+[INFO] systemd-logind[1]: New seat seat0.
+[ERROR] app[1234]: Segmentation fault at address 0x469c2
+[INFO] auditd[0]: Started dispatcher: /sbin/audispd pid: 6002

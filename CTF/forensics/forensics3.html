@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Challenge 3 — Thanos' Suspicious Logs</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body { background: #1c1f2a; font-family: 'Orbitron', sans-serif; color: #f0f0f0; text-align: center; padding: 40px; }
+    .container { background: rgba(255,255,255,0.05); padding: 2rem; border-radius: 10px; border: 2px solid #ff4c4c; max-width: 700px; margin: auto; }
+    h2 { color: #ffcc00; }
+    .download-link { display: inline-block; margin: 1rem 0; padding: 0.5rem 1rem; background-color: #007bff; color: #fff; text-decoration: none; border-radius: 8px; }
+    input[type="text"] { padding: 0.6rem; width: 60%; font-size: 1rem; border-radius: 6px; border: none; margin-top: 1rem; }
+    button { margin-top: 1rem; padding: 0.6rem 1.2rem; font-size: 1rem; background: #ff4c4c; color: #fff; border: none; border-radius: 8px; cursor: pointer; }
+    .success, .error { margin-top: 1rem; font-weight: bold; }
+    .success { color: #76ff03; }
+    .error { color: #ff4444; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>📜 Challenge 3: Thanos’ Suspicious Logs</h2>
+    <p>The log dump might look random but hides the final flag. Analyze the file using string search, base64 decoding or reverse pattern techniques.</p>
+    <a href="thanos_syslog.txt" class="download-link" download>📜 Download System Log</a><br>
+    <input type="text" id="flag3" placeholder="Enter flag">
+    <div id="result3"></div>
+    <button onclick="checkFlag()">Submit</button>
+  </div>
+
+  <script>
+    function checkFlag() {
+      const flag = document.getElementById("flag3").value.trim();
+      const result = document.getElementById("result3");
+
+      if (flag === "flag{log_slayer}") {
+        result.textContent = "✅ Final Mission Complete. You’ve crushed Hydra’s traces.";
+        result.className = "success";
+      } else {
+        result.textContent = "❌ Incorrect. Focus on the log data again.";
+        result.className = "error";
+      }
+    }
+  </script>
+</body>
+</html>

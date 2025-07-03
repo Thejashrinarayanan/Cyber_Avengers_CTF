@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cyber Avengers CTF | Mission Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(to right, #0f0f1a, #1a0033);
+      color: #fff;
+      font-family: 'Rajdhani', sans-serif;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px 20px;
+      background: url('top.jpg') center/cover no-repeat;
+      border-bottom: 3px solid #8a2be2;
+    }
+
+    header h1 {
+      font-size: 3.5rem;
+      font-family: 'Orbitron', sans-serif;
+      color: #ff4757;
+      text-shadow: 2px 2px #000;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #e0e0e0;
+      margin-top: 10px;
+    }
+
+    .mission-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      padding: 50px;
+    }
+
+    .mission-card {
+      background: #1e1e2f;
+      border: 2px solid #4b0082;
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 0 25px rgba(138, 43, 226, 0.4);
+      transition: transform 0.3s, box-shadow 0.3s;
+      text-align: center;
+    }
+
+    .mission-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 40px rgba(255, 71, 87, 0.8);
+    }
+
+    .mission-card h2 {
+      font-size: 1.8rem;
+      color: #ffe600;
+      margin-bottom: 15px;
+    }
+
+    .mission-card p {
+      font-size: 1rem;
+      color: #ccc;
+    }
+
+    .mission-card a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #ff4757;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .mission-card a:hover {
+      background: #c0392b;
+    }
+
+    footer {
+      text-align: center;
+      color: #999;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🛡️ Cyber Avengers: CTF Mission Hub</h1>
+    <p>Welcome, Agent. Your mission is to defend cyberspace by completing Marvel-themed security challenges.</p>
+  </header>
+
+  <div class="mission-grid">
+    <div class="mission-card">
+      <h2>🕸️ Web Exploitation</h2>
+      <p>Hydra’s hackers left backdoors in their web systems. Use your source-viewing and JS-fu to uncover secrets!</p>
+      <a href="web/index.html">Enter Web Mission</a>
+    </div>
+
+    <div class="mission-card">
+      <h2>🧮 Cryptography</h2>
+      <p>Ultron encoded messages inside corrupted transmissions. Can you decrypt his intentions before it's too late?</p>
+      <a href="crypto/index.html">Enter Crypto Mission</a>
+    </div>
+
+    <div class="mission-card">
+      <h2>🕵️ Forensics</h2>
+      <p>Loki’s data trail is hidden in logs and memory snapshots. Investigate and extract the buried flags.</p>
+      <a href="forensics/index.html">Enter Forensics Mission</a>
+    </div>
+
+    <div class="mission-card">
+      <h2>🧬 Steganography</h2>
+      <p>Thanos’ minions used image stego to leak data. Decode hidden metadata and pixel patterns to find clues.</p>
+      <a href="stego/index.html">Enter Stego Mission</a>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Cyber Avengers CTF | Organized by S.H.I.E.L.D. Ops Team 🛡️
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Challenge 2 — Hydra’s Screenshot</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body { background: #1c1f2a; font-family: 'Orbitron', sans-serif; color: #f0f0f0; text-align: center; padding: 40px; }
+    .container { background: rgba(255,255,255,0.05); padding: 2rem; border-radius: 10px; border: 2px solid #ff4c4c; max-width: 700px; margin: auto; }
+    h2 { color: #ffcc00; }
+    .download-link { display: inline-block; margin: 1rem 0; padding: 0.5rem 1rem; background-color: #007bff; color: #fff; text-decoration: none; border-radius: 8px; }
+    input[type="text"] { padding: 0.6rem; width: 60%; font-size: 1rem; border-radius: 6px; border: none; margin-top: 1rem; }
+    button { margin-top: 1rem; padding: 0.6rem 1.2rem; font-size: 1rem; background: #ff4c4c; color: #fff; border: none; border-radius: 8px; cursor: pointer; }
+    .success, .error { margin-top: 1rem; font-weight: bold; }
+    .success { color: #76ff03; }
+    .error { color: #ff4444; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>🖼️ Challenge 2: Hydra’s Secret Screenshot</h2>
+    <p>This image may contain a stego message. Extract EXIF data or use image forensics tools to find the flag.</p>
+    <a href="hidden_ss.jpg" class="download-link" download>🖼️ Download Screenshot</a><br>
+    <input type="text" id="flag2" placeholder="Enter flag">
+    <div id="result2"></div>
+    <button onclick="checkFlag()">Submit</button>
+  </div>
+
+  <script>
+    function checkFlag() {
+      const flag = document.getElementById("flag2").value.trim();
+      const result = document.getElementById("result2");
+
+      if (flag === "flag{hydra_pixel_secret}") {
+        result.textContent = "✅ Well done! Proceeding...";
+        result.className = "success";
+        setTimeout(() => { window.location.href = "forensics3.html"; }, 2000);
+      } else {
+        result.textContent = "❌ Not quite. Check EXIF or hidden layers.";
+        result.className = "error";
+      }
+    }
+  </script>
+</body>
+</html>

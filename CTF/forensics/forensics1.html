@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Challenge 1 — Hydra's Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body { background: #1c1f2a; font-family: 'Orbitron', sans-serif; color: #f0f0f0; text-align: center; padding: 40px; }
+    h2 { color: #ffcc00; }
+    .container { background: rgba(255,255,255,0.05); padding: 2rem; border-radius: 10px; border: 2px solid #ff4c4c; max-width: 700px; margin: auto; }
+    .download-link { display: inline-block; margin: 1rem 0; padding: 0.5rem 1rem; background-color: #007bff; color: #fff; text-decoration: none; border-radius: 8px; }
+    input[type="text"] { padding: 0.6rem; width: 60%; font-size: 1rem; border-radius: 6px; border: none; margin-top: 1rem; }
+    button { margin-top: 1rem; padding: 0.6rem 1.2rem; font-size: 1rem; background: #ff4c4c; color: #fff; border: none; border-radius: 8px; cursor: pointer; }
+    .success, .error { margin-top: 1rem; font-weight: bold; }
+    .success { color: #76ff03; }
+    .error { color: #ff4444; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>🧾 Challenge 1: Hydra's Fake Resume</h2>
+    <p>Hydra submitted a suspiciously bloated PDF resume. Your mission is to inspect it for hidden content, especially near the footer.</p>
+    <a href="Hydra Resume.pdf" class="download-link" download>📄 Download Resume</a><br>
+    <input type="text" id="flag1" placeholder="Enter flag">
+    <div id="result1"></div>
+    <button onclick="checkFlag()">Submit</button>
+  </div>
+
+  <script>
+    function checkFlag() {
+      const flag = document.getElementById("flag1").value.trim();
+      const result = document.getElementById("result1");
+
+      if (flag === "flag{hydra_resume_bluff}") {
+        result.textContent = "✅ Correct! Moving to next mission...";
+        result.className = "success";
+        setTimeout(() => { window.location.href = "forensics2.html"; }, 2000);
+      } else {
+        result.textContent = "❌ Incorrect flag. Check the PDF footer carefully.";
+        result.className = "error";
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Marvel CTF - OSINT Round</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-image: url('https://images6.alphacoders.com/906/thumb-1920-906985.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #ffffff;
+      font-family: 'Bebas Neue', cursive;
+      padding: 40px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 4em;
+      margin-bottom: 10px;
+      text-shadow: 3px 3px 10px #000;
+    }
+
+    p {
+      color: #eeeeee;
+      max-width: 800px;
+      margin: 0 auto 30px auto;
+      font-size: 1.3em;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 15px;
+      border-radius: 12px;
+    }
+
+    .challenge {
+      display: none;
+      background-color: rgba(0, 0, 0, 0.8);
+      border: 2px solid #ffa500;
+      border-radius: 15px;
+      padding: 25px;
+      margin: 30px auto;
+      width: 85%;
+      max-width: 750px;
+      box-shadow: 0 0 20px #ff9900;
+    }
+
+    .visible {
+      display: block;
+    }
+
+    input[type="text"] {
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      width: 80%;
+      font-size: 1em;
+      margin-top: 10px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 25px;
+      border: none;
+      background-color: #ffa500;
+      color: #000;
+      font-weight: bold;
+      font-size: 1em;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 0 0 10px #ffa500;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #ffbb33;
+    }
+
+    .success {
+      color: #76ff03;
+      margin-top: 10px;
+    }
+
+    .error {
+      color: #ff4444;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🕵️ Marvel CTF: OSINT Round</h1>
+  <p>
+    Welcome, S.H.I.E.L.D. agent. You’ve entered the realm of Open Source Intelligence. Here, we rely on footprints, metadata, leaks, and carelessness to hunt our enemies. Loki, Thanos, and Hydra have each left digital trails. It’s your job to follow them and extract the truth.
+  </p>
+
+  <div id="challenge1" class="challenge visible">
+    
+    
+      <h2>🌐 Challenge 1 — StarkLeaks Domain Mystery</h2>
+  <p>A suspicious domain <strong>starkleaks.info</strong> was detected. Use WHOIS tools or check the dump below to reveal who owns it.</p>
+  <p><a href="https://pastebin.com/JYq4rrCr" target="_blank">→ View WHOIS Dump</a></p>
+  <input type="text" id="answer1" placeholder="Enter flag">
+  <div id="result1"></div>
+  <button onclick="checkAnswer(1, 'flag{tony_stark_owns_it}')">Submit</button>
+
+  </div>
+
+  <div id="challenge2" class="challenge">
+    <h2>🕸️ Challenge 2 — Hydra’s Hidden HTML</h2>
+  <p>Hydra posted a very boring internal page. But S.H.I.E.L.D. believes there's more than meets the eye.</p>
+  <p><a href="hidden_flag.html" target="_blank">→ Open the Page</a></p>
+  <p><em>Hint: Try "View Page Source" or "Inspect Element".</em></p>
+  <input type="text" id="answer2" placeholder="Enter flag">
+  <div id="result2"></div>
+  <button onclick="checkAnswer(2, 'flag{hidden_in_comments}')">Submit</button>
+
+  </div>
+
+  <div id="challenge3" class="challenge">
+    <h2>📨 Challenge 3 — Hydra Hacker’s Email</h2>
+  <p>
+    A leaked email address <strong>hydra@evil.com</strong> has surfaced. Our agents managed to recover an internal breach log before it was wiped.
+    <br><br>
+    <a href="hydra_hidden_flag.html" target="_blank">→ Open the Breach Report</a>
+  </p>
+  <p><em>Hint: Look carefully through the file. The flag might be hidden where HYDRA thought we wouldn’t look.</em></p>
+
+  <input type="text" id="answer3" placeholder="Enter flag">
+  <div id="result3"></div>
+  <button onclick="checkAnswer(3, 'flag{email_revealed}')">Submit</button>
+
+  </div>
+
+  <script>
+    function checkAnswer(challengeNumber, correctFlag) {
+      const input = document.getElementById(`answer${challengeNumber}`);
+      const result = document.getElementById(`result${challengeNumber}`);
+
+      if (input.value.trim().toLowerCase() === correctFlag.toLowerCase()) {
+        result.innerHTML = "✅ Flag accepted. Next mission unlocked.";
+        result.className = "success";
+
+        const nextChallenge = document.getElementById(`challenge${challengeNumber + 1}`);
+        if (nextChallenge) nextChallenge.classList.add('visible');
+      } else {
+        result.innerHTML = "❌ That’s not the flag. Recalibrate your intel.";
+        result.className = "error";
+      }
+    }
+  </script>
+</body>
+</html>
